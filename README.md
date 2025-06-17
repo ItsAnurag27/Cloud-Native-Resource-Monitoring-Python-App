@@ -2,6 +2,11 @@
 
 The idea was to create a lightweight system monitoring tool using Python that can track CPU, memory, and disk usage — then containerize it, push it to AWS, and deploy it on Kubernetes (EKS) for a complete end-to-end cloud-native experience.
 
+## **WORKING IMAGES**
+![Monitoring Screen](./Screenshots/Montoring_Screen.png)
+![Code](./Screenshots/Code_Structure.png)
+![AWS-EKS](./Screenshots/EKS.png)
+
 
 ## **Prerequisites** !
 
@@ -208,7 +213,4 @@ Once your pod is up and running, run the port-forward to expose the service
 kubectl port-forward service/<service_name> 5000:5000
 ```
 
-## **WORKING IMAGES**
-![Monitoring Screen](./Screenshots/Montoring_Screen.png)
-![Code](./Screenshots/Code_Structure.png)
-![AWS-EKS](./Screenshots/EKS.png)
+PLEASE STAR THE REPO!!!!!!!✨✨✨
